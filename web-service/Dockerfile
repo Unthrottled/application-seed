@@ -26,7 +26,7 @@ WORKDIR /app
 
 #ENTRYPOINT ["java", "-jar", "wiki-1.0.3.jar"]
 
-
+ENTRYPOINT ["java", "-"]
 
 
 

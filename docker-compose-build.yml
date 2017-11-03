@@ -3,7 +3,7 @@ services:
   node-install:
     build:
       dockerfile: Dockerfile-install
-      context: ./angular4
+      context: ./web-content
     image: alexsimons/nodeinstall
     volumes:
       - ./web-content:/app

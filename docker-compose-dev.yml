@@ -3,7 +3,7 @@ services:
   web-content:
     build:
       dockerfile: Dockerfile-dev
-      context: ./angular4
+      context: ./web-content
     image: alexsimons/web-content
     ports:
       - "3000:3000"

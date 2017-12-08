@@ -1,12 +1,12 @@
-# Angular 4 Template Project
+# Angular 5 Template Project
 
 ---
 
-This project is, like the title states, a template for creating an angular 4 frontend.
+This project is, like the title states, a template for creating an angular 5 frontend.
 
 It comes pre-baked with the following goodies
 
-### Webpack 2
+### Webpack 3
 
 Webpack is currently configured with the following goodies:
 

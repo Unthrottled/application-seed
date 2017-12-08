@@ -13,7 +13,7 @@ Webpack is currently configured with the following goodies:
 - Browsersync Server that runs on localhost:3000 (when you run `npm run watch`) with a proxy to redirect HTTP request to an intended destination.
 - It is set to create 3 files on build
     - app.[hash].js: which is all of the application code bundled together in a cache-busting hash post-fixed js file.
-    - vendor.[hash].js: all of the vendor code wrapped up such as: angular4, bootstrap, rxjs, etc.
+    - vendor.[hash].js: all of the vendor code wrapped up such as: angular5, bootstrap, rxjs, etc.
     - polyfills.[hash].js: all of the browser compatability stuff, I think....
 - It is set to expose jquery as the global variables $ and jQuery
 - It is set to load html templates post-fixed with htm into the javascript files (to avoid browser caching).

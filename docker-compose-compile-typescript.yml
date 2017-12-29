@@ -6,11 +6,11 @@ services:
       context: ./web-content
     image: alexsimons/nodeinstall:9.2.0
     volumes:
-      - "./:/app"
+      - ./web-content:/app
     entrypoint:
       - /bin/bash
     command:
       - "-c"
-      - "cd web-content; npm install"
+      - "npm run compile"
 
-#runs the node install
+#runs the node compile
